@@ -2,7 +2,7 @@
 
 language = "python"
 version = 3
-Pi_value = 3.14
+Pi_value = 3.14159265
 Computation_valid = 4 > 3
 
 print (f"language {language}")
