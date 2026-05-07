@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+"""Create a script that assigns a random integer to a variable"""
+
 number = __import__('random').randint(-10000, 10000)
 
 last_number = abs(number) % 10
