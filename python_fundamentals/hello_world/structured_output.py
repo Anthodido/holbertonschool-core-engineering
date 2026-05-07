@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
-Language = "Python"
-Version = 3
+language = "Python"
+version = 3
 Pi_value = 3.14159265
 Computation_valid = 4 > 3
 
