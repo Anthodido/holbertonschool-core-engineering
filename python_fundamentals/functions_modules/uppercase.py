@@ -2,7 +2,7 @@
 
 def uppercase(str):
     for index in str:
-        if ord(index) >= ord('a') and ord(index) <= ord('z'):
-            index = chr(ord(index) - (ord('a') - ord('A')))
-        print(index, end="")
+        if ord(index) >= ord('a') ord(index) <= ord('z'):
+            index = chr(ord(index) - 32)
+        print("{}".format(index), end="")
     print()
