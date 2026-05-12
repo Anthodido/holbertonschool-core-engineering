@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 class Rectangle:
-    def __init__(self, area, width=0, height=0):
+    def __init__(self, width=0, height=0):
         self.width = width
         self.height = height
 
