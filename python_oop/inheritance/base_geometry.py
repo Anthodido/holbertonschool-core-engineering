@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+"""This class represents a foundational concept for geometric"""
+
 class BaseGeometry:
     def area(self):
         raise Exception("area() is not implemented")
