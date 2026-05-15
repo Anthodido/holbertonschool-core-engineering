@@ -6,13 +6,14 @@ from abc import ABC, abstractmethod
 
 
 class Animal(ABC):
-    
+
     """Defines an abstract base class for animals."""
 
     @abstractmethod
     def sound(self):
         """Abstract method that defines the sound behavior."""
         pass
+
 
 class Dog(Animal):
 
@@ -21,6 +22,7 @@ class Dog(Animal):
     def sound(self):
         """Implements the sound method for a dog."""
         return "Bark"
+
 
 class Cat(Animal):
 
