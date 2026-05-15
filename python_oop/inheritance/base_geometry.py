@@ -2,7 +2,11 @@
 
 """This class represents a foundational concept for geometric"""
 
+
 class BaseGeometry:
+
+    """Represents a base geometry."""
+
     def area(self):
         raise Exception("area() is not implemented")
     
