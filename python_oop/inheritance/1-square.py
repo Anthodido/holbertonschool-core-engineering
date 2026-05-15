@@ -4,6 +4,7 @@
 
 Rectangle = __import__('2-rectangle').Rectangle
 
+
 class Square(Rectangle):
 
     """A class that defines a square by: (based on 0-square.py)"""
@@ -14,4 +15,3 @@ class Square(Rectangle):
 
         super().__init__(size, size)
         self.__size = size
-
