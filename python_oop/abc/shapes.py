@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+"""Defines an abstract base class for shapes and concrete implementations for rectangles and circles."""
+
 from abc import ABC, abstractmethod
 from math import pi
 
