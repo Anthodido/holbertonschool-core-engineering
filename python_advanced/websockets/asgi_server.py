@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """ASGI application serving an HTML page and a WebSocket echo endpoint."""
 from starlette.applications import Starlette
 from starlette.responses import HTMLResponse

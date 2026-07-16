@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """WebSocket server that broadcasts every message to all connected clients."""
 import asyncio
 import websockets
